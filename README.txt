@@ -10,9 +10,9 @@ Files include
 
 4. ./metmodels/Agora1_03_without_mucins/agora_modelsample_spec_100_08-09-2021_out.txt: This file contains a list of 100 randomly sampled agora models as represented by their mat file names, together with some basic statistics on these models.
 
-5. ./metmodels/Agora1_03_without_mucins/Magnusdottir_2017_TableS12_diets.csv: This file contains the definition of a Westermn diet, and except for formatting changes, is identical to Table S12 in Magnusdottir et al. (2017).
+5. ./metmodels/Agora1_03_without_mucins/Magnusdottir_2017_TableS12_diets.csv: This file contains the definition of a Western diet, and except for formatting changes, is identical to Table S12 in Magnusdottir et al. (2017).
 
-6. The agora models are loaded as .mat files and should be in the directory ./metmodels/Agora1_03_without_mucins/mat/. They are not provided here, because A. Wagner does not own them. They can be obtained from the Virtual Metabolic Human data base at https://www.vmh.life/#microbes/search as  ‘AGORA 1.03 without mucin’ (see also Noronha et al., Nucleic Acids Research 2019)
+6. The agora models are loaded as .mat files and should be in the directory ./metmodels/Agora1_03_without_mucins/mat/. They are not provided here, because A. Wagner does not own them. They can be obtained from the Virtual Metabolic Human data base at https://www.vmh.life/#microbes/search as  â€˜AGORA 1.03 without mucinâ€™ (See also Noronha et al., Nucleic Acids Research 2019)
 
 7. assembly_cstat_ranvia_cluscode.py: main simulation routine for communities of random viable metabolisms. Call as 'assembly_cstat_ranvia_cluscode_pub.py [jobid]', where jobid is a positive integer that will determine the random number seed to be used, intended to run on a cluster where multiple jobs can be run simultaneously.
 
